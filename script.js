@@ -3,5 +3,9 @@ document.getElementById('executeBtn').addEventListener('click', function() {
 
     // Your JavaScript code goes here
     const message = 'Hello, JavaScript!';
-    outputElement.textContent = message;
+    let firstName = "Jose";
+    let lastName = "Alba";
+    console.log(firstName + " " + lastName);
+    outputElement.textContent = firstName + " " + lastName;
+    alert(firstName + " " + lastName);
 });
